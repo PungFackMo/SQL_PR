@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2A338ABA-9E4B-F312-2188-6A3F578BA959" name="ownership">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 03:25:05 UTC</createdTime>
+<ownerDesignName>부동산 데이터 베이스 물리 모델링</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="owner_o_id" id="C3A7D099-2239-F697-EB8D-55566F10A35A">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 03:27:38 UTC</createdTime>
+<ownerDesignName>부동산 데이터 베이스 물리 모델링</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACEB1FC1-FFF5-8390-4F43-6C9C347D313F" referredColumn="8A5DA0F3-7B82-513D-A0A9-D5B9637EF2E3"/>
+</associations>
+</Column>
+<Column name="property_pid" id="B15277AF-CF5E-766C-836B-9B6A6DDAAF8B">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 03:27:45 UTC</createdTime>
+<ownerDesignName>부동산 데이터 베이스 물리 모델링</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D34F36A5-E377-7FEC-6B5C-5833FD1776CA" referredColumn="E7304ED5-5A71-A9FD-0983-5427BD2C0BBC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0769C2E5-3C93-A067-930E-2D586F8E6BFD" name="ownership_owner_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 03:27:38 UTC</createdTime>
+<ownerDesignName>부동산 데이터 베이스 물리 모델링</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3A7D099-2239-F697-EB8D-55566F10A35A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B53C39F8-83D2-DA76-E877-500732B37E5C" name="ownership_property_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 03:27:45 UTC</createdTime>
+<ownerDesignName>부동산 데이터 베이스 물리 모델링</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B15277AF-CF5E-766C-836B-9B6A6DDAAF8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

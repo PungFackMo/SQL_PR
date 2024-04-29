@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="부동산 데이터 베이스 물리 모델링" id="24395C45-79DA-1C5F-A319-D61AC72F953F" mainViewID="32EDEA76-71EC-8328-7413-721C0E282F64">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 03:13:27 UTC</createdTime>
+<ownerDesignName>부동산 데이터 베이스 물리 모델링</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

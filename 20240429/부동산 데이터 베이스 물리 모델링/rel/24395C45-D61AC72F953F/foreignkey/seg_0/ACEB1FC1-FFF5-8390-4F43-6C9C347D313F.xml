@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ACEB1FC1-FFF5-8390-4F43-6C9C347D313F" containerWithKeyObject="2A338ABA-9E4B-F312-2188-6A3F578BA959" localFKIndex="0769C2E5-3C93-A067-930E-2D586F8E6BFD" name="ownership_owner_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 03:27:38 UTC</createdTime>
+<ownerDesignName>부동산 데이터 베이스 물리 모델링</ownerDesignName>
+<referredTableLongName>owner</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>90AF3AE6-25FB-F15B-E4B3-7079854873E5</referredTableID>
+<keyObject>A830D4D9-CCDB-C3F7-4C0C-287D26D3666D</keyObject>
+<referredKeyID>A830D4D9-CCDB-C3F7-4C0C-287D26D3666D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>o_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

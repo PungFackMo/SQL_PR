@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="부동산 데이터 베이스 물리 모델링" id="236DA114-FC00-DD94-2119-013AF57C4F44" version="3.5">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 03:12:40 UTC</createdTime>
+<ownerDesignName>부동산 데이터 베이스 물리 모델링</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>236DA114-FC00-DD94-2119-013AF57C4F44</designId>
+</OSDM_Design>

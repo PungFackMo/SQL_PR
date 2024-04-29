@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="예제 물리 모델링" id="607DC208-10E0-FD1E-20E6-3D28B1E19F7F" version="3.5">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:03:10 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>607DC208-10E0-FD1E-20E6-3D28B1E19F7F</designId>
+</OSDM_Design>

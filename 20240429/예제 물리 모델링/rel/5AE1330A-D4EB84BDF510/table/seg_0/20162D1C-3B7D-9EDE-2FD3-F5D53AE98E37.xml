@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20162D1C-3B7D-9EDE-2FD3-F5D53AE98E37" name="shipdate">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:45:31 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="date" id="A94705D8-34E1-6895-26D1-986A40CC73E4">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:45:42 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prot" id="2C78F319-6205-9F41-5D40-F90C9991D610">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:45:50 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ship_prop_shipname" id="0503D9D5-596D-8509-6078-D14CFB49FBB1">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:45:54 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E5F5FC1-AA7B-6F09-2D65-CF3069EE3E07" referredColumn="75E4EFC4-3C20-96FD-2EC5-0FAA6A1985F8"/>
+</associations>
+</Column>
+<Column name="user_voyageID" id="AD19C68F-D664-EAE4-5E56-FC472DADC4D7">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:45:58 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B063039-6F5B-85AC-B839-F84EA0811691" referredColumn="A76597FA-9010-5AAD-C3C7-931BA47A1555"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CEACBDE0-FF49-1E45-A954-4C49BA915D7E" name="shipdate_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:45:42 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A94705D8-34E1-6895-26D1-986A40CC73E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="227DA2EE-1719-07EA-00EC-D36D88900AA3" name="shipdate_ship_prop_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:45:54 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0503D9D5-596D-8509-6078-D14CFB49FBB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E4E5679-3B5F-069E-3C86-2B8D7C2ED0EA" name="shipdate_user_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:45:58 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD19C68F-D664-EAE4-5E56-FC472DADC4D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

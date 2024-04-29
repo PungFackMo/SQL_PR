@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B9D3246C-37D2-6857-BAC9-2AA29EFBBB68" containerWithKeyObject="0D2379CB-8627-60D2-C6CE-8D94A092F2B3" localFKIndex="A5EA1356-531D-DD1A-1FFA-3B62A8D3AA04" name="booktitle_booktype_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 06:02:53 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<referredTableLongName>booktype</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8783BD57-7629-1FAE-A00E-D642BB9E497B</referredTableID>
+<keyObject>537A5A9E-B284-6AED-1CE4-228D4040496D</keyObject>
+<referredKeyID>537A5A9E-B284-6AED-1CE4-228D4040496D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>booktype</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

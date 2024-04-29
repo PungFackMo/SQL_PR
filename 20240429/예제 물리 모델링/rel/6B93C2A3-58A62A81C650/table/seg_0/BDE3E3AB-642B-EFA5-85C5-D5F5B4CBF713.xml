@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDE3E3AB-642B-EFA5-85C5-D5F5B4CBF713" name="user">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 06:48:58 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="userid" id="65714BBF-3658-AC6D-064F-6D376667C68D">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 06:49:19 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="username" id="153F1A5D-6D1B-32F4-CA7C-5650A6189BEC">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 06:49:19 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC8E195F-1354-7083-EDAB-BF301E67F920" name="user_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 06:49:19 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65714BBF-3658-AC6D-064F-6D376667C68D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

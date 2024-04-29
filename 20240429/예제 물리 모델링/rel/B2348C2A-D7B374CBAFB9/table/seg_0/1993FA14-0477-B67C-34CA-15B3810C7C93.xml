@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1993FA14-0477-B67C-34CA-15B3810C7C93" name="book_data">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:46:33 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="publisher" id="C41FC6FF-7F50-6E51-3B92-C88F8395B80A">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:47:24 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="booktitle_booktitle" id="246C52E1-A98C-D6E5-20FA-61C619ED5F74">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 06:03:15 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11837AA9-2859-B871-A7E7-39542AC5BF4B" referredColumn="304C1F6F-7AE4-0BDA-DCA9-9C9C9DDC0AC4"/>
+</associations>
+</Column>
+<Column name="authorgroup_authorname" id="819DE4F0-AD45-872E-4519-63BF8D7165C8">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 06:03:29 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="114962CC-3114-A58B-34BB-F52941B5D2F3" referredColumn="210C8EDB-A648-BFC3-E913-98FE1183D1EF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56C95153-617D-EA1A-7D14-D28D9C22A21C" name="book_data_booktitle_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 06:03:15 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="246C52E1-A98C-D6E5-20FA-61C619ED5F74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="589B4674-D0A7-C5A9-ECC7-64A19284D49D" name="book_data_authorgroup_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 06:03:29 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="819DE4F0-AD45-872E-4519-63BF8D7165C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

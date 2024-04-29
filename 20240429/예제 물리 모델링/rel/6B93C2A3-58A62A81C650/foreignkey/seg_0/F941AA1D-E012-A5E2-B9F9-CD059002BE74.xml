@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F941AA1D-E012-A5E2-B9F9-CD059002BE74" containerWithKeyObject="672F640A-7BD3-E2B4-FBB2-6F29C5F60CE8" localFKIndex="C4719045-3A63-2190-5242-774C5BC35132" name="order_user_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 06:49:24 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<referredTableLongName>user</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BDE3E3AB-642B-EFA5-85C5-D5F5B4CBF713</referredTableID>
+<keyObject>CC8E195F-1354-7083-EDAB-BF301E67F920</keyObject>
+<referredKeyID>CC8E195F-1354-7083-EDAB-BF301E67F920</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>userid</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

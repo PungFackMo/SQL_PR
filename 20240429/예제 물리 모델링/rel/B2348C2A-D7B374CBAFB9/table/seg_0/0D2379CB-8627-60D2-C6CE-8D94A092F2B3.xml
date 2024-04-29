@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D2379CB-8627-60D2-C6CE-8D94A092F2B3" name="booktitle">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:51:15 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="booktitle" id="304C1F6F-7AE4-0BDA-DCA9-9C9C9DDC0AC4">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 06:02:25 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="booktype_booktype" id="4802769F-ADFE-D50F-7035-8FEF05B07994">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 06:02:53 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9D3246C-37D2-6857-BAC9-2AA29EFBBB68" referredColumn="8E4729EB-3AF8-9E04-CA07-A504F053DCCB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2BBCA6CD-4305-8A16-4ECF-454E52E208DD" name="booktitle_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 06:02:25 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="304C1F6F-7AE4-0BDA-DCA9-9C9C9DDC0AC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5EA1356-531D-DD1A-1FFA-3B62A8D3AA04" name="booktitle_booktype_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 06:02:53 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4802769F-ADFE-D50F-7035-8FEF05B07994"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="8BC2A207-969D-B38E-4181-7E02526A44F5" mainViewID="3E5F312F-BB6F-2094-C275-70951686E65F">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:03:10 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

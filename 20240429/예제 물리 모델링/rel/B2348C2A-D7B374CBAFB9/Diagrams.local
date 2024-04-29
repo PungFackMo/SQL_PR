@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="04E073EB-1AEF-D4B2-37EB-1E751E1D1D82" name="도서 데이터 물리 모델링" visible="false"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

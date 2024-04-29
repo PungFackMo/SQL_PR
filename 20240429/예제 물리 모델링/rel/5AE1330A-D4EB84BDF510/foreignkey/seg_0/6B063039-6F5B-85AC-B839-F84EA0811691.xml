@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6B063039-6F5B-85AC-B839-F84EA0811691" containerWithKeyObject="20162D1C-3B7D-9EDE-2FD3-F5D53AE98E37" localFKIndex="0E4E5679-3B5F-069E-3C86-2B8D7C2ED0EA" name="shipdate_user_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:45:58 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<referredTableLongName>user</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B3F6324A-0B55-1E44-484E-5770057FCE29</referredTableID>
+<keyObject>29CE0AEA-B8CA-FE56-A35D-D50617A82C55</keyObject>
+<referredKeyID>29CE0AEA-B8CA-FE56-A35D-D50617A82C55</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>voyageID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

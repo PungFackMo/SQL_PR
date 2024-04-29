@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B3F6324A-0B55-1E44-484E-5770057FCE29" name="user">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:44:56 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="voyageID" id="A76597FA-9010-5AAD-C3C7-931BA47A1555">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:45:16 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cargo" id="6EC51588-1B93-DD4F-902B-994177997312">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:45:16 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ship_prop_shipname" id="7FEF912E-11B2-931A-1875-D110D20754C6">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:45:18 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A70AF0D-8643-7423-096B-96B9D0120D7D" referredColumn="75E4EFC4-3C20-96FD-2EC5-0FAA6A1985F8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="29CE0AEA-B8CA-FE56-A35D-D50617A82C55" name="user_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:45:16 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A76597FA-9010-5AAD-C3C7-931BA47A1555"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="260367E0-CE23-576A-52C7-2A9EE87613EF" name="user_ship_prop_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:45:18 UTC</createdTime>
+<ownerDesignName>예제 물리 모델링</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FEF912E-11B2-931A-1875-D110D20754C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

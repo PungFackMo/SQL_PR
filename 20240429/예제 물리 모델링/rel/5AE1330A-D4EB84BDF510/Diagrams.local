@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="D0E43416-208C-CCAB-E442-682EC0FCC90A" name="배송 데이터 물리 모델링" visible="false"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
